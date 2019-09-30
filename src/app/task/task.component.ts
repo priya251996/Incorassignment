@@ -9,6 +9,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class TaskComponent implements OnInit {
   datas
+  search1: any;
   constructor(private http: HttpClient, private router: Router) { }
 
   ngOnInit() {
